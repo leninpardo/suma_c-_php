@@ -19,6 +19,5 @@
 
 <?php 
  $comando="./suma ".$_REQUEST['num1']." ".$_REQUEST['num2'];
-//passthru("./mcd 7 14");
 passthru($comando);
 ?>
